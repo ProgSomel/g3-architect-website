@@ -67,4 +67,34 @@ nav li a {
 }
 /*! Resposive Design  */
 /*? Mobile Devices  */
+@media screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+    }
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .banner-des-container {
+        margin-top: 50px;
+    }
+}
+/*? Tablet or Medium Devices  */
+@media screen and (min-width: 577px) and (max-width:992px) {
+    header {
+        padding: 20px;
+    }
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .banner-des-container {
+        margin-top: 50px;
+    }
+}
+
 
