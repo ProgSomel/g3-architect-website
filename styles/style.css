@@ -151,13 +151,13 @@ main {
   right: 40px;
 }
 .ten-years-badge h3 {
-    font-size: 2rem;
-    margin: 0;
+  font-size: 2rem;
+  margin: 0;
 }
 .ten-years-badge p {
-    font-size: 1rem;
-    margin-top: 10px;
-    margin-bottom: 0;
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 /*! fatcs Section Styles  */
 .facts {
@@ -199,6 +199,16 @@ main {
   margin-top: 3.2rem;
   display: flex;
   justify-content: space-evenly;
+}
+
+/*! footer Section Styles  */
+.footer {
+  border-radius: 8px;
+  background: #fff4e7;
+  padding: 20px;
+  text-align: center;
+  width: 69%;
+  margin: 100px auto;
 }
 
 /*! Resposive Design  */
@@ -250,7 +260,6 @@ main {
   .features {
     margin: 100px auto 10px auto;
   }
-  
 }
 /*? Tablet or Medium Devices  */
 @media screen and (min-width: 577px) and (max-width: 992px) {
