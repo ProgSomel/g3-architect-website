@@ -5,7 +5,15 @@
     font-family: 'Work Sans', sans-serif;
 }
 .btn-primary {
-    
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    padding: 20px 25px;
+    color: white;
+    margin-top: 10px;
+    font-size: 1.25rem;
+    font-weight: 200px;
+    cursor: pointer;
 }
 
 /*! header styles  */
@@ -48,7 +56,15 @@ nav li a {
     font-size: 4rem;
     font-weight: 700px;
     color: #131313;
+    margin-bottom: 10px;
 }
 .banner-des {
     color: #727272;
+    margin-bottom: 10px;
 }
+.banner-img {
+    width: 100%;
+}
+/*! Resposive Design  */
+/*? Mobile Devices  */
+
